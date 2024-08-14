@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1723656771773,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/blueberries-not-yet-ripen.jpg",
+        "/assets/ripe_blueberries.png",
+        "/chunk-4OF7UGK6.js",
+        "/chunk-DDZOFVXC.js",
+        "/chunk-P435J4DV.js",
+        "/chunk-U255IAHL.js",
+        "/index.html",
+        "/main-4GJDMRET.js",
+        "/manifest.webmanifest",
+        "/polyfills-SCHOHYNV.js",
+        "/styles-BKJLFELH.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/blueberry.png",
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/blueberries-not-yet-ripen.jpg": "2bc6a6ae6b71cc8c330297566162a75c3355b6bb",
+    "/assets/ripe_blueberries.png": "77922f6412ba258e9227df66d9cedc489c95ab2d",
+    "/blueberry.png": "f5c842a041afa467bbdb8c9d86349fbf06c5f753",
+    "/chunk-4OF7UGK6.js": "bee535fa8d5d053318965db7d5f0a703937d4abb",
+    "/chunk-DDZOFVXC.js": "fa718896bbb66629acdbb90f680c48f78b093613",
+    "/chunk-P435J4DV.js": "3ea8833e383c37972103528d37e4fcd22ebeb87b",
+    "/chunk-U255IAHL.js": "637e8d413bb1c292a5bfe547d31561915dc83e4e",
+    "/icons/icon-128x128.png": "8579abb9435ba37edb592468203d8e38dad27d79",
+    "/icons/icon-144x144.png": "03b660dcc46b46a984a5377d69eac0d8fc2e6e7f",
+    "/icons/icon-152x152.png": "ecfa63a7e069cbd41bc0e8dc88321cc723c93224",
+    "/icons/icon-192x192.png": "3d72cf5d9a56281d9768b373c30d5f8350f55eac",
+    "/icons/icon-384x384.png": "4e6b03b826981af78064f50c2bb0b8622c687d22",
+    "/icons/icon-512x512.png": "33664a6b4953953be9aec45bab61f9784e0c2873",
+    "/icons/icon-72x72.png": "d55fe53a0d41930b0d6648430a1bb51a1951333a",
+    "/icons/icon-96x96.png": "77cd936387e6a88d44e20be636abac84de551aaf",
+    "/index.html": "3075b2b41d37fb08f55e0ed722ca9e75738589d1",
+    "/main-4GJDMRET.js": "645b759956651637af123f3933add9489596df4e",
+    "/manifest.webmanifest": "dfe4caab64e8ded50f184fb546e398ac045e22af",
+    "/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
+    "/styles-BKJLFELH.css": "80ac4a44e51052aa0b41ad32cd804ca7ba8961a5"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
