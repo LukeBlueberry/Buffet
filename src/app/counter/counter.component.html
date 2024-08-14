@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Blueberry Banquet</h1>
+  <div class="blueberrycounters">
+    <div class="blueberrycounter">
+      <h2>Ripe Blueberries: {{ ripeCount }}</h2>
+      <img src="assets/ripe_blueberries.png" alt="Ripe Blueberries" class="blueberry-image" />
+      <button (click)="incrementRipe()">Add Ripe</button>
+    </div>
+    <div class="blueberrycounter">
+      <h2>Not Ripe Blueberries: {{ notRipeCount }}</h2>
+      <img src="assets/blueberries-not-yet-ripen.jpg" alt="Not Ripe Blueberries" class="blueberry-image" />
+      <button (click)="incrementNotRipe()">Add Not Ripe</button>
+    </div>
+  </div>
+  <button (click)="resetCounts()">Reset Counts</button>
+  <button (click)="saveCounts()">Save Counts</button>
+</div>
+

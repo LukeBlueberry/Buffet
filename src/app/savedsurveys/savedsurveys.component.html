@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>Saved Blueberry Counts</h1>
+  <table>
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Surveyor</th>
+      <th>Ripe Blueberries</th>
+      <th>Not Ripe Blueberries</th>
+      <th>Survey Time</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let count of counts">
+      <td>{{ count.id }}</td>
+      <td>{{ count.surveyor }}</td>
+      <td>{{ count.ripeCount }}</td>
+      <td>{{ count.notRipeCount }}</td>
+      <td>{{ count.surveyTime | date: 'dd/MM/YYYY HH:mm'}}</td>
+    </tr>
+    </tbody>
+  </table>
+  <button (click)="clearCache()">Clear Cached Surveys</button>
+</div>

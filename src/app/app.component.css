@@ -1,0 +1,11 @@
+.sidenavcontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.sidenav{
+  flex: 1 20%;
+}
+.pagecontents{
+  flex: 2 80%;
+}

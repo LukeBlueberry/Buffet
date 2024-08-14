@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@cdssnc/gcds-components/dist/gcds/gcds.css';
+body {
+  font-family: Arial, sans-serif;
+  background-color: AliceBlue;
+  color: Indigo;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: Indigo;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5a2d81;
+}
+
+
+
+
+
