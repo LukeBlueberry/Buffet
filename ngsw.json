@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1723749036035,
+  "timestamp": 1723822935136,
   "index": "/Buffet/index.html",
   "assetGroups": [
     {
@@ -13,15 +13,16 @@
       "urls": [
         "/Buffet/assets/blueberries-not-yet-ripen.jpg",
         "/Buffet/assets/ripe_blueberries.png",
-        "/Buffet/chunk-4OF7UGK6.js",
-        "/Buffet/chunk-DDZOFVXC.js",
+        "/Buffet/chunk-GVFFXBE4.js",
+        "/Buffet/chunk-OEZYJ2QM.js",
         "/Buffet/chunk-P435J4DV.js",
         "/Buffet/chunk-U255IAHL.js",
         "/Buffet/index.html",
-        "/Buffet/main-2FZVIT5V.js",
+        "/Buffet/main-UEZFBNMG.js",
         "/Buffet/manifest.webmanifest",
         "/Buffet/polyfills-SCHOHYNV.js",
-        "/Buffet/styles-BKJLFELH.css"
+        "/Buffet/scripts-R57UVA53.js",
+        "/Buffet/styles-YPVKZATB.css"
       ],
       "patterns": []
     },
@@ -41,7 +42,14 @@
         "/Buffet/icons/icon-384x384.png",
         "/Buffet/icons/icon-512x512.png",
         "/Buffet/icons/icon-72x72.png",
-        "/Buffet/icons/icon-96x96.png"
+        "/Buffet/icons/icon-96x96.png",
+        "/Buffet/media/fontawesome-webfont-3KIJVIEY.svg",
+        "/Buffet/media/fontawesome-webfont-5GKVPAEF.woff2",
+        "/Buffet/media/fontawesome-webfont-RJ6LE7IU.ttf",
+        "/Buffet/media/fontawesome-webfont-Z4ARLA73.woff",
+        "/Buffet/media/layers-2x-TBM42ERR.png",
+        "/Buffet/media/layers-55W3Q4RM.png",
+        "/Buffet/media/marker-icon-2V3QKKVC.png"
       ],
       "patterns": []
     }
@@ -51,8 +59,8 @@
     "/Buffet/assets/blueberries-not-yet-ripen.jpg": "2bc6a6ae6b71cc8c330297566162a75c3355b6bb",
     "/Buffet/assets/ripe_blueberries.png": "77922f6412ba258e9227df66d9cedc489c95ab2d",
     "/Buffet/blueberry.png": "f5c842a041afa467bbdb8c9d86349fbf06c5f753",
-    "/Buffet/chunk-4OF7UGK6.js": "bee535fa8d5d053318965db7d5f0a703937d4abb",
-    "/Buffet/chunk-DDZOFVXC.js": "fa718896bbb66629acdbb90f680c48f78b093613",
+    "/Buffet/chunk-GVFFXBE4.js": "6b44185ed31c44429771124fe5435742a92160e5",
+    "/Buffet/chunk-OEZYJ2QM.js": "c45f118ae17180eca119b1f501e15251ef40c57e",
     "/Buffet/chunk-P435J4DV.js": "3ea8833e383c37972103528d37e4fcd22ebeb87b",
     "/Buffet/chunk-U255IAHL.js": "637e8d413bb1c292a5bfe547d31561915dc83e4e",
     "/Buffet/icons/icon-128x128.png": "8579abb9435ba37edb592468203d8e38dad27d79",
@@ -63,11 +71,19 @@
     "/Buffet/icons/icon-512x512.png": "33664a6b4953953be9aec45bab61f9784e0c2873",
     "/Buffet/icons/icon-72x72.png": "d55fe53a0d41930b0d6648430a1bb51a1951333a",
     "/Buffet/icons/icon-96x96.png": "77cd936387e6a88d44e20be636abac84de551aaf",
-    "/Buffet/index.html": "60b7bab4f8f20a3babd0dcef3942e0a386ebf5ac",
-    "/Buffet/main-2FZVIT5V.js": "c8c4d8e58d0071ea93cc11bcd697d45551e21f37",
+    "/Buffet/index.html": "d5f6cefd6091a9c25bfcb19c43245549a70b3928",
+    "/Buffet/main-UEZFBNMG.js": "e708264143223307430066560c8ba0454d7f2318",
     "/Buffet/manifest.webmanifest": "dfe4caab64e8ded50f184fb546e398ac045e22af",
+    "/Buffet/media/fontawesome-webfont-3KIJVIEY.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/Buffet/media/fontawesome-webfont-5GKVPAEF.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/Buffet/media/fontawesome-webfont-RJ6LE7IU.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/Buffet/media/fontawesome-webfont-Z4ARLA73.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/Buffet/media/layers-2x-TBM42ERR.png": "152a162333e46d24f9d89f566312fc0c64011dee",
+    "/Buffet/media/layers-55W3Q4RM.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
+    "/Buffet/media/marker-icon-2V3QKKVC.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
     "/Buffet/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
-    "/Buffet/styles-BKJLFELH.css": "80ac4a44e51052aa0b41ad32cd804ca7ba8961a5"
+    "/Buffet/scripts-R57UVA53.js": "47f9b0b17931dd7b70c435896bb4fcf05661f85b",
+    "/Buffet/styles-YPVKZATB.css": "18df8f077765338da007259f7a449db384715a2e"
   },
   "navigationUrls": [
     {
