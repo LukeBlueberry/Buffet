@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1724171871932,
+  "timestamp": 1724172133108,
   "index": "/Buffet/index.html",
   "assetGroups": [
     {
@@ -16,7 +16,7 @@
         "/Buffet/chunk-EBMZ5OYN.js",
         "/Buffet/chunk-IN5353TC.js",
         "/Buffet/index.html",
-        "/Buffet/main-7FDX6ICU.js",
+        "/Buffet/main-OHQG6RLK.js",
         "/Buffet/manifest.webmanifest",
         "/Buffet/polyfills-SCHOHYNV.js",
         "/Buffet/scripts-R57UVA53.js",
@@ -67,8 +67,8 @@
     "/Buffet/icons/icon-512x512.png": "33664a6b4953953be9aec45bab61f9784e0c2873",
     "/Buffet/icons/icon-72x72.png": "d55fe53a0d41930b0d6648430a1bb51a1951333a",
     "/Buffet/icons/icon-96x96.png": "77cd936387e6a88d44e20be636abac84de551aaf",
-    "/Buffet/index.html": "dd4410397378a1d3ab6c4d46376896c42ac96e52",
-    "/Buffet/main-7FDX6ICU.js": "ee8621f42cb825aeac622f2e675628ca938dab0c",
+    "/Buffet/index.html": "0982cd1dea28119b3a7af18be99e6f0d28a5ce18",
+    "/Buffet/main-OHQG6RLK.js": "5662b3f24203c22069475bacfd22dbed836c167a",
     "/Buffet/manifest.webmanifest": "dfe4caab64e8ded50f184fb546e398ac045e22af",
     "/Buffet/media/fontawesome-webfont-3KIJVIEY.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
     "/Buffet/media/fontawesome-webfont-5GKVPAEF.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
