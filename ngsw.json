@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1724172133108,
+  "timestamp": 1724175250260,
   "index": "/Buffet/index.html",
   "assetGroups": [
     {
@@ -13,14 +13,14 @@
       "urls": [
         "/Buffet/assets/blueberries-not-yet-ripen.jpg",
         "/Buffet/assets/ripe_blueberries.png",
-        "/Buffet/chunk-EBMZ5OYN.js",
-        "/Buffet/chunk-IN5353TC.js",
+        "/Buffet/chunk-2O7P6HQT.js",
+        "/Buffet/chunk-VMXM22TT.js",
         "/Buffet/index.html",
-        "/Buffet/main-OHQG6RLK.js",
+        "/Buffet/main-KC3YDJN3.js",
         "/Buffet/manifest.webmanifest",
         "/Buffet/polyfills-SCHOHYNV.js",
         "/Buffet/scripts-R57UVA53.js",
-        "/Buffet/styles-JG3XUQBM.css"
+        "/Buffet/styles-NA7VC3E5.css"
       ],
       "patterns": []
     },
@@ -57,8 +57,8 @@
     "/Buffet/assets/blueberries-not-yet-ripen.jpg": "2bc6a6ae6b71cc8c330297566162a75c3355b6bb",
     "/Buffet/assets/ripe_blueberries.png": "77922f6412ba258e9227df66d9cedc489c95ab2d",
     "/Buffet/blueberry.png": "f5c842a041afa467bbdb8c9d86349fbf06c5f753",
-    "/Buffet/chunk-EBMZ5OYN.js": "e3a0f3c1515be49a3c991cd17fe16981efdccfb3",
-    "/Buffet/chunk-IN5353TC.js": "6ab0e5260f75552adb4a5bd77ba95784a4ccafdb",
+    "/Buffet/chunk-2O7P6HQT.js": "667dde8074602d711881ee506ba68d2a2f704570",
+    "/Buffet/chunk-VMXM22TT.js": "a3d32a17ccd4e12d62adc53d5e7354c8c010bdae",
     "/Buffet/icons/icon-128x128.png": "8579abb9435ba37edb592468203d8e38dad27d79",
     "/Buffet/icons/icon-144x144.png": "03b660dcc46b46a984a5377d69eac0d8fc2e6e7f",
     "/Buffet/icons/icon-152x152.png": "ecfa63a7e069cbd41bc0e8dc88321cc723c93224",
@@ -67,8 +67,8 @@
     "/Buffet/icons/icon-512x512.png": "33664a6b4953953be9aec45bab61f9784e0c2873",
     "/Buffet/icons/icon-72x72.png": "d55fe53a0d41930b0d6648430a1bb51a1951333a",
     "/Buffet/icons/icon-96x96.png": "77cd936387e6a88d44e20be636abac84de551aaf",
-    "/Buffet/index.html": "0982cd1dea28119b3a7af18be99e6f0d28a5ce18",
-    "/Buffet/main-OHQG6RLK.js": "5662b3f24203c22069475bacfd22dbed836c167a",
+    "/Buffet/index.html": "3f680cbb2c87c1bd92150b7a0412dff30a28f7d9",
+    "/Buffet/main-KC3YDJN3.js": "cafb4024ec446f138f5827b169a81196a5ebf43f",
     "/Buffet/manifest.webmanifest": "dfe4caab64e8ded50f184fb546e398ac045e22af",
     "/Buffet/media/fontawesome-webfont-3KIJVIEY.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
     "/Buffet/media/fontawesome-webfont-5GKVPAEF.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
@@ -79,7 +79,7 @@
     "/Buffet/media/marker-icon-2V3QKKVC.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
     "/Buffet/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
     "/Buffet/scripts-R57UVA53.js": "47f9b0b17931dd7b70c435896bb4fcf05661f85b",
-    "/Buffet/styles-JG3XUQBM.css": "ff88535962ac5b693433ca8c4b874b20ca3a66f0"
+    "/Buffet/styles-NA7VC3E5.css": "e57fe68f88012b58fc6c726e08ff38176ff3d15a"
   },
   "navigationUrls": [
     {
