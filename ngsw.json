@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1724164015237,
+  "timestamp": 1724164299445,
   "index": "/Buffet/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/Buffet/assets/blueberries-not-yet-ripen.jpg",
         "/Buffet/assets/ripe_blueberries.png",
-        "/Buffet/chunk-3RSQNUQ2.js",
-        "/Buffet/chunk-NHCOINU5.js",
+        "/Buffet/chunk-BA7URTSB.js",
+        "/Buffet/chunk-OC4RLCHA.js",
         "/Buffet/index.html",
-        "/Buffet/main-E4ZKUWQQ.js",
+        "/Buffet/main-UVAAM6KN.js",
         "/Buffet/manifest.webmanifest",
         "/Buffet/polyfills-SCHOHYNV.js",
         "/Buffet/scripts-R57UVA53.js",
@@ -57,8 +57,8 @@
     "/Buffet/assets/blueberries-not-yet-ripen.jpg": "2bc6a6ae6b71cc8c330297566162a75c3355b6bb",
     "/Buffet/assets/ripe_blueberries.png": "77922f6412ba258e9227df66d9cedc489c95ab2d",
     "/Buffet/blueberry.png": "f5c842a041afa467bbdb8c9d86349fbf06c5f753",
-    "/Buffet/chunk-3RSQNUQ2.js": "50493749e6f1bdcf54d4d7a9bc8899d0db87fc88",
-    "/Buffet/chunk-NHCOINU5.js": "fb8ef3ffa0581a8d9a96a7e38f11dfcee327844d",
+    "/Buffet/chunk-BA7URTSB.js": "170de774848edf100bc89a172b28234764829cce",
+    "/Buffet/chunk-OC4RLCHA.js": "f4dd4bf98162a1dc8271f05e6b55352592f06080",
     "/Buffet/icons/icon-128x128.png": "8579abb9435ba37edb592468203d8e38dad27d79",
     "/Buffet/icons/icon-144x144.png": "03b660dcc46b46a984a5377d69eac0d8fc2e6e7f",
     "/Buffet/icons/icon-152x152.png": "ecfa63a7e069cbd41bc0e8dc88321cc723c93224",
@@ -67,8 +67,8 @@
     "/Buffet/icons/icon-512x512.png": "33664a6b4953953be9aec45bab61f9784e0c2873",
     "/Buffet/icons/icon-72x72.png": "d55fe53a0d41930b0d6648430a1bb51a1951333a",
     "/Buffet/icons/icon-96x96.png": "77cd936387e6a88d44e20be636abac84de551aaf",
-    "/Buffet/index.html": "ab1a54b99912b3a61c910141b3134ae129979e8e",
-    "/Buffet/main-E4ZKUWQQ.js": "971e5d7b08508cb7a79de3746a3e91b41f97ab6f",
+    "/Buffet/index.html": "9e748352bc9570b1b914b2bbf3520f236232893f",
+    "/Buffet/main-UVAAM6KN.js": "d187046e33ae1037622fab55b7a4c6b5e0b4efff",
     "/Buffet/manifest.webmanifest": "dfe4caab64e8ded50f184fb546e398ac045e22af",
     "/Buffet/media/fontawesome-webfont-3KIJVIEY.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
     "/Buffet/media/fontawesome-webfont-5GKVPAEF.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
