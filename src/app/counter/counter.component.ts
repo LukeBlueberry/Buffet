@@ -44,6 +44,9 @@ export class CounterComponent {
       ripeCount: this.ripeCount,
       notRipeCount: this.notRipeCount,
       surveyTime: new Date(),
+      latitude: 11,
+      longitude: 11,
+      mission: 'test'
     });
     this.resetCounts();
   }

@@ -1,3 +1,9 @@
+.landingpagebuttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 header{
   display: flex;
   height: 10vh;
@@ -7,3 +13,4 @@ header{
   align-items: center;
   font-size: 24px;
 }
+

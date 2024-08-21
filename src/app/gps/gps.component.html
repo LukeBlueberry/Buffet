@@ -1,1 +1,118 @@
-<p>gps works!</p>
+<!--<button>{{ isTracking ? 'Stop Tracking' : 'Start Tracking' }}</button>-->
+<!--&lt;!&ndash;<button (click)="storageInfo()">Log Storage</button>&ndash;&gt;-->
+<!--&lt;!&ndash;<div *ngIf="storageInfo">&ndash;&gt;-->
+<!--&lt;!&ndash;  <h3>Offline Storage Info:</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;  <pre>{{ (storage | json)}}</pre>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+
+<!--<div *ngIf="locations.length > 0 ">-->
+<!--  <p *ngFor="let location of locations">-->
+<!--    Latitude: {{ location.latitude }}, Longitude: {{ location.longitude }}-->
+<!--  </p>-->
+<!--</div>-->
+<header>
+  <mat-icon routerLink="" class="icondisplay">home</mat-icon>
+  <p>Blueberry Banquet</p>
+  <p></p>
+</header>
+<mat-tab-group class = 'footer_nav' headerPosition="below" [ngStyle]="{background:'Indigo' , color:'#fff'}">
+  <mat-tab class = 'gps-tab'>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">map</mat-icon>
+    </ng-template>
+    <div id="map" ></div>
+  </mat-tab>
+
+  <mat-tab class = 'gps-tab'>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">sticky_note_2</mat-icon>
+    </ng-template>
+    <div class = 'survey-tab'>
+      <div *ngIf="surveyInProgress">
+        <div class="blueberrycounters">
+          <div class="blueberrycounter">
+            <h2>Ripe Blueberries: {{ ripeCount }}</h2>
+            <img src="assets/ripe_blueberries.png" alt="Ripe Blueberries" class="blueberry-image" />
+            <button (click)="incrementRipe()" class="container_button">Add Ripe</button>
+          </div>
+          <div class="blueberrycounter">
+            <h2>Not Ripe Blueberries: {{ notRipeCount }}</h2>
+            <img src="assets/blueberries-not-yet-ripen.jpg" alt="Not Ripe Blueberries" class="blueberry-image" />
+            <button (click)="incrementNotRipe()" class="container_button">Add Not Ripe</button>
+          </div>
+          <div class="blueberrycounter">
+            <button (click)="resetCounts()">Reset Counts</button>
+            <button (click)="saveSurvey()">Save Counts</button>
+            <button (click)="completeSurvey()">Complete Survey</button>
+          </div>
+        </div>
+
+      </div>
+      <div *ngIf="!surveyInProgress">
+        <form (ngSubmit)="onSubmit()" #surveyForm="ngForm">
+          <div class="form-group">
+            <label for="surveyor">Surveyor:</label>
+            <input
+              type="text"
+              id="surveyor"
+              name="surveyor"
+              [(ngModel)]="surveyor"
+              #surveyorField="ngModel"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="mission">Mission:</label>
+            <input
+              type="text"
+              id="mission"
+              name="mission"
+              [(ngModel)]="mission"
+              #missionField="ngModel"
+              required
+            />
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </mat-tab>
+
+  <mat-tab class = 'gps-tab'>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">photo_camera</mat-icon>
+    </ng-template>
+    <div class = 'photo-tab'>
+      <div style="text-align:center" *ngIf="!webcamImage">
+        <webcam [height]="500" [width]="500" [trigger]="triggerObservable" (imageCapture)="handleImage($event)" *ngIf="showWebcam"
+                [allowCameraSwitch]="allowCameraSwitch" [switchCamera]="nextWebcamObservable"
+                [videoOptions]="videoOptions"
+                [imageQuality]="1"
+                (cameraSwitched)="cameraWasSwitched($event)"
+                (initError)="handleInitError($event)"
+        ></webcam>
+        <br/>
+        <button (click)="triggerSnapshot();">Capture Image</button>
+        <br/>
+      </div>
+      <div *ngIf="webcamImage" style="text-align:center">
+        <img [src]="webcamImage.imageAsDataUrl"/>
+        <br/>
+        <button (click)="discardImage();">Discard Image</button>
+        <button (click)="submitImage();">Submit Image</button>
+        <br/>
+      </div>
+
+      <h4 *ngIf="errors.length > 0">Messages:</h4>
+      <ul *ngFor="let error of errors">
+        <li>{{error | json}}</li>
+      </ul>
+
+    </div>
+  </mat-tab>
+</mat-tab-group>
+
+

@@ -7,3 +7,6 @@ header{
   align-items: center;
   font-size: 24px;
 }
+#map{
+  height: 90vh;
+}

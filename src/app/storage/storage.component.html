@@ -1,1 +1,26 @@
-<p>storage works!</p>
+<header>
+  <mat-icon routerLink="" class="icondisplay">home</mat-icon>
+  <p>Blueberry Banquet</p>
+  <p></p>
+</header>
+<p>storage for current route</p>
+<p>Available Storage {{available}} bytes </p>
+<p>User Storage {{usage}} bytes </p>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+    <th>Mission</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let count of counts">
+    <td>{{ count.id }}</td>
+    <td>{{ count.latitude }}</td>
+    <td>{{ count.longitude }}</td>
+    <td>{{ count.mission}}</td>
+  </tr>
+  </tbody>
+</table>

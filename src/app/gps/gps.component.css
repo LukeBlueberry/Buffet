@@ -1,0 +1,141 @@
+.map-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 30px;
+}
+
+.map-frame {
+  border: 2px solid black;
+  height: 70%;
+}
+
+#map {
+  height: 85vh;
+}
+
+.footer_nav{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.photo-tab{
+  font-family: Arial, sans-serif;
+  background-color: AliceBlue;
+  color: Indigo;
+  height: 80vh;
+}
+.survey-tab{
+  font-family: Arial, sans-serif;
+  background-color: AliceBlue;
+  color: Indigo;
+  height: 80vh;
+  touch-action: manipulation;
+}
+
+img{
+  max-inline-size: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  width: 100px;
+  text-align: right;
+}
+
+.form-group input {
+  flex: 1; /* Allow the input to take up the remaining space */
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  display: block; /* Ensure buttons are full-width on mobile */
+}
+
+button:hover {
+  background-color: #5a2d81;
+}
+
+.blueberrycounters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.blueberrycounter {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+  max-width: 350px; /* Limit max-width to keep design compact on larger screens */
+}
+
+.submitreset{
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0;
+  max-width: 350px;
+  text-align: center;
+}
+
+.blueberrycounter h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.blueberry-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  align-self: flex-start; /* Align button to the left */
+  width: 100%;
+}
+
+header{
+  display: flex;
+  height: 10vh;
+  background: Indigo;
+  Color: white;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+
